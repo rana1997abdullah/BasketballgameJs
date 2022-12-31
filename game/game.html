@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <link href="game.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mainContainer">
+        <div id="container">
+            <div id="innerContainer">
+                <span id="home_text">Home</span>
+                <div id="number_home">0</div>
+                <div id="buttons">
+                    <button id="plus_button" onclick="addnumber('home',1)">+1</button>
+                    <button id="plus_button" onclick="addnumber('home',2)">+2</button>
+                    <button id="plus_button" onclick="addnumber('home',3)">+3</button>
+                </div>
+            </div>
+            <div id="innerContainer">
+                <span id="guest_text">Guest</span>
+                <div id="number_guest">0</div>
+                <div id="buttons">
+                    <button id="plus_button" onclick="addnumber('guest',1)">+1</button>
+                    <button id="plus_button" onclick="addnumber('guest',2)">+2</button>
+                    <button id="plus_button" onclick="addnumber('guest',3)">+3</button>
+                </div>
+            </div>
+        </div>
+        <div>
+            <button id="new_btn" onclick="addNewGame()">New Game</button>
+            <span></span>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+
+</html>

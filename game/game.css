@@ -1,0 +1,101 @@
+#container {
+    display: inline-flex;
+
+
+}
+
+#mainContainer {
+    background-color: #1B244A;
+    display: inline-block;
+    width: 575px;
+    height: 385px;
+}
+
+body {
+    text-align: center;
+}
+
+#number_home {
+    font-family: TimerFont, Geneva, Tahoma, sans-serif;
+    font-size: 90px;
+    color: #F94F6D;
+    text-align: center;
+    justify-content: center;
+    width: 155px;
+    background: #080001;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-top: 18px;
+}
+
+#number_guest {
+    font-family: TimerFont, Geneva, Tahoma, sans-serif;
+    font-size: 90px;
+    color: #F94F6D;
+    text-align: center;
+    justify-content: center;
+    width: 155px;
+    background: #080001;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-top: 18px;
+}
+
+span {
+    width: 117px;
+    height: 120px;
+
+}
+
+@font-face {
+    font-family: TimerFont;
+    src: url(CursedTimerUlil.ttf);
+}
+
+#innerContainer {
+    margin: 50px;
+}
+
+#home_text {
+    font-size: 40px;
+    color: #EEEEEE;
+    font-weight: 700;
+    font-family: Verdana;
+    margin-top: 68px;
+}
+
+#guest_text {
+    font-size: 40px;
+    color: #EEEEEE;
+    font-weight: 700;
+    font-family: Verdana;
+    margin-top: 68px;
+}
+
+#buttons {
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#plus_button {
+    color: #9AABD8;
+    font-size: 18px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: #1B244A;
+    width: 45px;
+    height: 45px;
+    font-weight: 400;
+    font-family: TimerFont, Geneva, Tahoma, sans-serif;
+
+}
+
+#new_btn {
+    color: #9AABD8;
+    font-size: 18px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: #1B244A;
+    width: 120px;
+    height: 45px;
+}
